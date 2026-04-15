@@ -15,5 +15,5 @@ Project in the context of ETL Data Analysis self-learning
 ### &#127919; Project's steps
 * Retrieve and transform data from the openweather API (`Python`).
 * Import cleaned data into (`MySQL`) running on virtual machine (`parallels`).
-* Build a dashboard leading to relevant analysis concerning project's data.
+* Build a dashboard (`Power Bi`) leading to relevant analysis concerning project's data.
 
