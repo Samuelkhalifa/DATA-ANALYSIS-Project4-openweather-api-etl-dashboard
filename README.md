@@ -25,7 +25,7 @@ Project in the context of ETL Data Analysis self-learning
 <br>
 
 ### &#128640; Project setup and activation
-* `Git clone` the project et get inside, to project root.
+* `Git clone` the project and get inside, to project root.
 * Write your personal credentials and settings (which will be needed on the loading phase) into a `.env` file.
 * On your  `CLI`, run the following file `main.py`, which will activate etl's files (extract-transform-load), in will load api's results into `MySQL`afer creating database and table.
 * Open the `dashboard/.pbix` file.
