@@ -65,7 +65,7 @@ Write your personal credentials and settings (which will be needed on the loadin
   ```
 <br>
 
-Run the following file `main.py`, which will activate etl's files (extract-transform-load), in will load api's results into `MySQL`afer creating database and table.
+Run the following file `main.py`, which will activate etl's files (extract-transform-load), and will load api's results into `MySQL`after creating database and table.
 
   ``` bash
   python main.py
