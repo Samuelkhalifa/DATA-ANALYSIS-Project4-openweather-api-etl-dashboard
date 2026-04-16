@@ -15,16 +15,26 @@ Project in the context of ETL Data Analysis self-learning
 
 ## [Subject : Build dashboard serving openweather-API's data]
 
+<p align="center">
+  <img width="934" height="178" alt="Capture d’écran 2026-04-16 à 10 57 50" 
+  src="https://github.com/user-attachments/assets/990fa1d8-357c-4897-8843-7f40347a17bd" />
+</p>
+
 <br>
 
-### &#127919; Project's steps
+## &#127919; Project steps
+
+<br>
+
 * Retrieve and transform data from the openweather API (`Python`).
 * Import cleaned data into (`MySQL`) running on virtual machine (`parallels`).
 * Build a dashboard (`Power Bi`) leading to relevant analysis concerning project's data. 
 
 <br>
 
-### &#128640; Project setup and activation
+## &#128640; Project setup and activation
+
+<br>
 
 `Git clone` the project and get inside, to project root.
 
@@ -32,7 +42,8 @@ Project in the context of ETL Data Analysis self-learning
   git clone <repository-url> openweather-api-etl-dashboard
   cd openweather-api-etl-dashboard
   ```
-    
+<br>
+
 Write your personal credentials and settings (which will be needed on the loading phase) into a `.env` file.
 
   ```bash
@@ -46,22 +57,17 @@ Write your personal credentials and settings (which will be needed on the loadin
   MYSQL_DB_NAME=""
   MYSQL_TABLE=""
   ```
+<br>
 
 Run the following file `main.py`, which will activate etl's files (extract-transform-load), in will load api's results into `MySQL`afer creating database and table.
 
   ``` bash
   python main.py
   ```
+<br>
 
 Open the `dashboard/.pbix` file.
+<br>
 
 Connect `Power Bi` to your `MySQL` database to use the dashboard.
 
-<br>
-<br>
-<br>
-
-<p align="center">
-  <img width="934" height="178" alt="Capture d’écran 2026-04-16 à 10 57 50" 
-  src="https://github.com/user-attachments/assets/990fa1d8-357c-4897-8843-7f40347a17bd" />
-</p>
