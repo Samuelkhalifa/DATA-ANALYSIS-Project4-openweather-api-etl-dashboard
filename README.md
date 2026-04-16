@@ -23,6 +23,15 @@ Project in the context of ETL Data Analysis self-learning
 * Build a dashboard (`Power Bi`) leading to relevant analysis concerning project's data.
 
 <br>
+
+### &#128640; Project setup and activation
+* `Git clone` the project et get inside, to project root.
+* Write your personal credentials and settings (which will be needed on the loading phase) into a `.env` file.
+* On your  `CLI`, run the following file `main.py`, which will activate etl's files (extract-transform-load), in will load api's results into `MySQL`afer creating database and table.
+* Open the `dashboard/.pbix` file.
+* Connect `Power Bi` to your `MySQL` database to use the dashboard.
+
+<br>
 <br>
 <br>
 
