@@ -73,6 +73,7 @@ Run the following file `main.py`, which will activate etl's files (extract-trans
 <br>
 
 Open the `dashboard/.pbix` file.
+
 <br>
 
 Connect `Power Bi` to your `MySQL` database to use the dashboard.
