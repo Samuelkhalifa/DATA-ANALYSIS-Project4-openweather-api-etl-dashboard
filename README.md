@@ -25,11 +25,37 @@ Project in the context of ETL Data Analysis self-learning
 <br>
 
 ### &#128640; Project setup and activation
-* `Git clone` the project and get inside, to project root.
-* Write your personal credentials and settings (which will be needed on the loading phase) into a `.env` file.
-* On your  `CLI`, run the following file `main.py`, which will activate etl's files (extract-transform-load), in will load api's results into `MySQL`afer creating database and table.
-* Open the `dashboard/.pbix` file.
-* Connect `Power Bi` to your `MySQL` database to use the dashboard.
+
+`Git clone` the project and get inside, to project root.
+
+  ```bash
+  git clone <repository-url> openweather-api-etl-dashboard
+  cd openweather-api-etl-dashboard
+  ```
+    
+Write your personal credentials and settings (which will be needed on the loading phase) into a `.env` file.
+
+  ```bash
+  touch .env # (for Mac)
+  ```
+  ```dotenv
+  API_KEY=""
+  MYSQL_HOST=""
+  MYSQL_USER=""
+  MYSQL_PASSWORD=""
+  MYSQL_DB_NAME=""
+  MYSQL_TABLE=""
+  ```
+
+Run the following file `main.py`, which will activate etl's files (extract-transform-load), in will load api's results into `MySQL`afer creating database and table.
+
+  ``` bash
+  python main.py
+  ```
+
+Open the `dashboard/.pbix` file.
+
+Connect `Power Bi` to your `MySQL` database to use the dashboard.
 
 <br>
 <br>
