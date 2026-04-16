@@ -15,6 +15,12 @@ Project in the context of ETL Data Analysis self-learning
 
 ## [Subject : Build dashboard serving openweather-API's data]
 
+<br>
+
+## &#x1F4DD; Project graph
+
+<br>
+
 <p align="center">
   <img width="934" height="178" alt="Capture d’écran 2026-04-16 à 10 57 50" 
   src="https://github.com/user-attachments/assets/990fa1d8-357c-4897-8843-7f40347a17bd" />
